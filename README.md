@@ -10,8 +10,8 @@
 
 Create following names based on SOS
 
-|	Uncertainty Source	|	Combination name	|	SOS	|	Z\edge	|	WH	|	Multilepton	|	4b	|	hadronic WX (SUS-21-002)	|	Comment	|	Correlation implemented	|
-|	---------------	|	---------------	|		|		|		|		|		|		|		|		|
+|	Uncertainty Source	|	Combination name	|	SOS	|	ZEdge	|	WH	|	Multilepton	|	4b	|	hadronic WX (SUS-21-002)	|	Comment	|	Correlation implemented	|
+|	---------------	|	---------------	| ---------------		|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|
 |	SM Backgrounds	|		|		|		|		|		|		|		|		|		|
 |	DY normalization	|	TBD	|		|		|		|		|		|		|		|		|
 |	WZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
@@ -27,17 +27,17 @@ Create following names based on SOS
 |	Charge flips norm	|	TBD	|		|		|		|		|		|		|		|		|
 |	WZ tails	|	TBD	|		|		|		|		|		|		|		|		|
 |	Non prompt shapes	|	TBD	|		|		|		|		|		|		|		|		|
-|	---------------	|	---------------	|		|		|		|		|		|		|		|		|
+|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|		---------------|		---------------|	---------------	|	---------------	|
 |	Signal Modelling	|		|		|		|		|		|		|		|		|		|
 |	ISR	|	TBD	|		|		|		|		|		|		|		|		|
 |	FastSimMET	|	TBD	|		|		|		|		|		|		|		|		|
 |	QCD/Scales	|	TBD	|		|		|		|		|		|		|		|		|
-|	---------------	|	---------------	|		|		|		|		|		|		|		|		|
+|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|		---------------|		---------------|	---------------	|	---------------	|
 |	Other general	|		|		|		|		|		|		|		|		|		|
 |	PileUp	|	TBD	|		|		|		|		|		|		|		|		|
 |	Luminosity	|	TBD	|		|		|		|		|		|		|		|		|
 |	MC statistics	|	TBD	|		|		|		|		|		|		|		|		|
-|	---------------	|	---------------	|		|		|		|		|		|		|		|		|
+|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|		---------------|		---------------|	---------------	|	---------------	|	|
 |	Objects	|		|		|		|		|		|		|		|		|		|
 |	Electron efficiency	|	TBD	|		|		|		|		|		|		|		|		|
 |	Muon efficiency	|	TBD	|		|		|		|		|		|		|		|		|
