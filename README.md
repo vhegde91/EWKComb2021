@@ -12,7 +12,7 @@ Create following names based on SOS
 
 |	Uncertainty Source	|	Combination name	|	SOS	|	ZEdge	|	WH	|	Multilepton	|	4b	|	hadronic WX (SUS-21-002)	|	Comment	|	Correlation implemented	|
 |	---------------	|	---------------	| ---------------		|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|	---------------	|
-|	SM Backgrounds	|		|		|		|		|		|		|		|		|		|
+|	SM Backgrounds		|
 |	DY normalization	|	TBD	|		|		|		|		|		|		|		|		|
 |	WZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
 |	ZZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
