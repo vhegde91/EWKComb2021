@@ -12,7 +12,8 @@ Create following names based on SOS
 
 |	Source	|	Name	|	SOS	|	ZEdge	|	WH	|	ML	|	4b	|	hadronic WX (SUS-21-002)	|	Comment	|	Correlation implemented	|
 |	---	|	---	|	---	|	---	|	---	|	---	| --- | --- |	---	|	---	|
-|	**SM backgrounds**
+|	**SM backgrounds** |
+| <td colspan="2">Three</td> |
 |	DY normalization	|	TBD	|		|		|		|		|		|		|		|		|
 |	WZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
 |	ZZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
