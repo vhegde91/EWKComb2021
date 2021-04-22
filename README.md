@@ -9,8 +9,7 @@
 :x: not correlated / not considered
 
 Create following names based on SOS
-	Uncertainty Source		Combination name
-|		|	
+|	Uncertainty Source |		Combination name	
 |	---------------	|	---------------
 |	SM Backgrounds	|	
 |	DY normalization	|	TBD
