@@ -11,31 +11,31 @@
 Create following names based on SOS
 
 |	Source	|	Name	|	SOS	|	ZEdge	|	WH	|	ML	|	4b	|	hadronic WX (SUS-21-002)	|	Comment	|	Correlation implemented	|
-|	---	|	---	|	---	|	---	|	---	|	---	| --- | --- |	---	|	---	|
-|	**SM backgrounds** 
-|	DY normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	WZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	ZZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	VV normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	X+gamma normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	VVV normaliation	|	TBD	|		|		|		|		|		|		|		|		|
-|	VH normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	tZq normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	tt normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	TTZ normalization	|	TBD	|		|		|		|		|		|		|		|		|
-|	Non prompt norm	|	TBD	|		|		|		|		|		|		|		|		|
-|	Charge flips norm	|	TBD	|		|		|		|		|		|		|		|		|
-|	WZ tails	|	TBD	|		|		|		|		|		|		|		|		|
+|	---	|	---	|	---	|	---	|	---	|	---	| --- | --- |	---	|	---	|				
+|	**SM backgrounds**																			
+|	DY normalization	|	TBD	|	norm_dy	|		|		|		|		|		|		|		|
+|	WZ normalization	|	TBD	|	norm_wz	|		|		|		|		|		|		|		|
+|	ZZ normalization	|	TBD	|	norm_vv	|		|		|		|		|		|		|		|
+|	VV normalization	|	TBD	|	norm_vv	|		|		|		|		|		|		|		|
+|	X+gamma normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	VVV normaliation	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	VH normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	tZq normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	tt normalization	|	TBD	|	norm_tt	|		|		|		|		|		|		|		|
+|	TTZ normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	Non prompt norm	|	TBD	|	norm_fakes	|		|		|		|		|		|		|		|
+|	Charge flips norm	|	TBD	|	NA	|		|		|		|		|		|		|		|
+|	WZ tails	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	Non prompt shapes	|	TBD	|		|		|		|		|		|		|		|		|
-|	**Signal Modelling**
+|	**Signal Modelling**																			
 |	ISR	|	TBD	|		|		|		|		|		|		|		|		|
 |	FastSimMET	|	TBD	|		|		|		|		|		|		|		|		|
 |	QCD/Scales	|	TBD	|		|		|		|		|		|		|		|		|
-|	**Other general**
+|	**Other general**																			
 |	PileUp	|	TBD	|		|		|		|		|		|		|		|		|
-|	Luminosity	|	TBD	|		|		|		|		|		|		|		|		|
+|	Luminosity	|	TBD	| lumi_13TeV_year		|		|		|		|		|		|		|		|
 |	MC statistics	|	TBD	|		|		|		|		|		|		|		|		|
-|	**Objects**	
+|	**Objects**																			
 |	Electron efficiency	|	TBD	|		|		|		|		|		|		|		|		|
 |	Muon efficiency	|	TBD	|		|		|		|		|		|		|		|		|
 |	Tau efficiency	|	TBD	|		|		|		|		|		|		|		|		|
