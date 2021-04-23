@@ -8,7 +8,7 @@
 :recycle: needs some more dicussion
 :x: not correlated / not considered
 
-Create following names based on SOS
+Combination names TBC
 
 |	Source	|	Name	|	SOS	|	ZEdge	|	WH	|	ML	|	4b	|	hadronic WX (SUS-21-002)	|	Comment	|	Correlation implemented	|
 |	---	|	---	|	---	|	---	|	---	|	---	| --- | --- |	---	|	---	|				
@@ -26,7 +26,7 @@ Create following names based on SOS
 |	Non prompt norm	|	TBD	|	norm_fakes	|		|		|		|		|		|		|		|
 |	Charge flips norm	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	WZ tails	|	TBD	|	NA	|		|		|		|		|		|		|		|
-|	Non prompt shapes	|	TBD	| shape_mllInclInMET_year and shape_FR_ptDepend_year	|		|		|		|		|		|		|		|
+|	Non prompt shapes	|	TBD	| shape_mllInclInMET_year, shape_FR_ptDepend_year	|		|		|		|		|		|		|		|
 |	**Signal Modelling**																			
 |	ISR	|	TBD	|	ISR_year	|		|		|		|		|		|		|		|
 |	FastSimMET	|	TBD	|	METinFastSIM_year	|		|		|		|		|		|		|		|
