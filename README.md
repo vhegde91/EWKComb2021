@@ -41,9 +41,10 @@ Create following names based on SOS
 |	Tau efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	b tag efficiency	|	TBD	|	CMS_btag_<lf,hf,lfstats1/2,hfstats1/2,cferr1/2,FastSIM>	|		|		|		|		|		|		|		|
 |	bb tag efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
-|	JER	|	TBD	|		|		|		|		|		|		|		|		|
-|	JES	|	TBD	|		|		|		|		|		|		|		|		|
-|	Trigger Efficiency	|	TBD	|		|		|		|		|		|		|		|		|
+|	JER	|	TBD	|	TBC	|		|		|		|		|		|		|		|
+|	JES	|	TBD	|	TBC	|		|		|		|		|		|		|		|
+|	Trigger Efficiency	|	TBD	|	TriggerEff_<2l/3l/lowWZ>_year	|		|		|		|		|		|		|		|
+|	Trigger SF	|	TBD	|	TriggerSF_<2l/3l/lowWZ>_year	|		|		|		|		|		|		|		|
 |	Prefire corrections	|	TBD	|	Prefire_year	|		|		|		|		|		|		|		|
 |	Soft drop jet mass	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	JetID	|	TBD	|	NA	|		|		|		|		|		|		|		|
