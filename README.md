@@ -28,11 +28,11 @@ Create following names based on SOS
 |	WZ tails	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	Non prompt shapes	|	TBD	|		|		|		|		|		|		|		|		|
 |	**Signal Modelling**																			
-|	ISR	|	TBD	|		|		|		|		|		|		|		|		|
-|	FastSimMET	|	TBD	|		|		|		|		|		|		|		|		|
+|	ISR	|	TBD	|	ISR_year	|		|		|		|		|		|		|		|
+|	FastSimMET	|	TBD	|	METinFastSIM_year	|		|		|		|		|		|		|		|
 |	QCD/Scales	|	TBD	|		|		|		|		|		|		|		|		|
 |	**Other general**																			
-|	PileUp	|	TBD	|		|		|		|		|		|		|		|		|
+|	PileUp	|	TBD	| PU		|		|		|		|		|		|		|		|
 |	Luminosity	|	TBD	| lumi_13TeV_year		|		|		|		|		|		|		|		|
 |	MC statistics	|	TBD	|		|		|		|		|		|		|		|		|
 |	**Objects**																			
@@ -44,9 +44,9 @@ Create following names based on SOS
 |	JER	|	TBD	|		|		|		|		|		|		|		|		|
 |	JES	|	TBD	|		|		|		|		|		|		|		|		|
 |	Trigger Efficiency	|	TBD	|		|		|		|		|		|		|		|		|
-|	Prefire corrections	|	TBD	|		|		|		|		|		|		|		|		|
-|	Soft drop jet mass	|	TBD	|		|		|		|		|		|		|		|		|
-|	JetID	|	TBD	|		|		|		|		|		|		|		|		|
+|	Prefire corrections	|	TBD	|	Prefire_year	|		|		|		|		|		|		|		|
+|	Soft drop jet mass	|	TBD	|	NA	|		|		|		|		|		|		|		|
+|	JetID	|	TBD	|	NA	|		|		|		|		|		|		|		|
 
 ### Processes
 
