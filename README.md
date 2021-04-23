@@ -36,8 +36,8 @@ Create following names based on SOS
 |	Luminosity	|	TBD	| lumi_13TeV_year		|		|		|		|		|		|		|		|
 |	MC statistics	|	TBD	|	autoMCstats	|		|		|		|		|		|		|		|
 |	**Objects**																			
-|	Electron efficiency	|	TBD	|		|		|		|		|		|		|		|		|
-|	Muon efficiency	|	TBD	|		|		|		|		|		|		|		|		|
+|	Electron efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|		|		|		|
+|	Muon efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|		|		|		|
 |	Tau efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	b tag efficiency	|	TBD	|	CMS_btag_<lf,hf,lfstats1/2,hfstats1/2,cferr1/2,FastSIM>	|		|		|		|		|		|		|		|
 |	bb tag efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
