@@ -19,28 +19,28 @@ Create following names based on SOS
 |	VV normalization	|	TBD	|	norm_vv	|		|		|		|		|		|		|		|
 |	X+gamma normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
 |	VVV normaliation	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
-|	VH normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	VH normalization	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	tZq normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
 |	tt normalization	|	TBD	|	norm_tt	|		|		|		|		|		|		|		|
 |	TTZ normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
 |	Non prompt norm	|	TBD	|	norm_fakes	|		|		|		|		|		|		|		|
 |	Charge flips norm	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	WZ tails	|	TBD	|	NA	|		|		|		|		|		|		|		|
-|	Non prompt shapes	|	TBD	|		|		|		|		|		|		|		|		|
+|	Non prompt shapes	|	TBD	| shape_mllInclInMET_year and shape_FR_ptDepend_year	|		|		|		|		|		|		|		|
 |	**Signal Modelling**																			
 |	ISR	|	TBD	|	ISR_year	|		|		|		|		|		|		|		|
 |	FastSimMET	|	TBD	|	METinFastSIM_year	|		|		|		|		|		|		|		|
-|	QCD/Scales	|	TBD	|		|		|		|		|		|		|		|		|
+|	QCD/Scales	|	TBD	|	CMS_scale_j	|		|		|		|		|		|		|		|
 |	**Other general**																			
 |	PileUp	|	TBD	| PU		|		|		|		|		|		|		|		|
 |	Luminosity	|	TBD	| lumi_13TeV_year		|		|		|		|		|		|		|		|
-|	MC statistics	|	TBD	|		|		|		|		|		|		|		|		|
+|	MC statistics	|	TBD	|	autoMCstats	|		|		|		|		|		|		|		|
 |	**Objects**																			
 |	Electron efficiency	|	TBD	|		|		|		|		|		|		|		|		|
 |	Muon efficiency	|	TBD	|		|		|		|		|		|		|		|		|
-|	Tau efficiency	|	TBD	|		|		|		|		|		|		|		|		|
-|	b tag efficiency	|	TBD	|		|		|		|		|		|		|		|		|
-|	bb tag efficiency	|	TBD	|		|		|		|		|		|		|		|		|
+|	Tau efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
+|	b tag efficiency	|	TBD	|	CMS_btag_<lf,hf,lfstats1/2,hfstats1/2,cferr1/2,FastSIM>	|		|		|		|		|		|		|		|
+|	bb tag efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
 |	JER	|	TBD	|		|		|		|		|		|		|		|		|
 |	JES	|	TBD	|		|		|		|		|		|		|		|		|
 |	Trigger Efficiency	|	TBD	|		|		|		|		|		|		|		|		|
