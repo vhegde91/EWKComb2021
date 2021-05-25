@@ -22,7 +22,7 @@ cd $TMPDIR
 
 # PREPARE FOR OUTPUT
 export EOS_MGM_URL=root://eosuser.cern.ch; echo "Checking output eosuser.cern.ch..."
-eos ls $OUTDIR || eos mkdir -p $OUTDIR
+eos ls -s $OUTDIR || eos mkdir -p $OUTDIR
 
 # RUN COMBINE
 combine -M AsymptoticLimits /eos/cms/store/group/phys_susy/EWK_comb/comb_trial_v1_May20_2021/combined/WZ/${MODEL}_${MNLSP}_${MLSP}_comb.root -n ${MODEL}_${MNLSP}_${MLSP}_obs -m ${MNLSP}
@@ -34,6 +34,10 @@ if eos ls ${OUTDIR}/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.m
 else
     cp $TMPDIR/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root $OUTDIR/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root
 fi;
+
+# CLEAN RUNNING DIRECTORY
+cd ..
+rm -rf combination_${MODEL}_${MNLSP}_${MLSP}
 
 # EXIT
 exit 0
