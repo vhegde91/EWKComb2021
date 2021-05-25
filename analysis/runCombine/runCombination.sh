@@ -25,14 +25,14 @@ export EOS_MGM_URL=root://eosuser.cern.ch; echo "Checking output eosuser.cern.ch
 eos ls $OUTDIR || eos mkdir -p $OUTDIR
 
 # RUN COMBINE
-combine -M AsymptoticLimits /eos/cms/store/group/phys_susy/EWK_comb/comb_trial_v1_May20_2021/combined/WZ/TChiWZ_${MNLSP}_${MLSP}_comb.root -n TChiWZ_${MNLSP}_${MLSP}_obs -m ${MNLSP}
+combine -M AsymptoticLimits /eos/cms/store/group/phys_susy/EWK_comb/comb_trial_v1_May20_2021/combined/WZ/${MODEL}_${MNLSP}_${MLSP}_comb.root -n ${MODEL}_${MNLSP}_${MLSP}_obs -m ${MNLSP}
 
 # COPY OUTPUT TO OUTDIR AND RETRY ON FAILURE
-eos cp $TMPDIR/higgsCombineTChiWZ_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root $OUTDIR/myoutput.root
-if eos ls ${OUTDIR}/myoutput.root; then
+eos cp $TMPDIR/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root $OUTDIR/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root
+if eos ls ${OUTDIR}/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root; then
     echo "Copied ok"
 else
-    cp $TMPDIR/higgsCombineTChiWZ_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root $OUTDIR/myoutput.root
+    cp $TMPDIR/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root $OUTDIR/higgsCombine${MODEL}_${MNLSP}_${MLSP}_obs.AsymptoticLimits.mH${MNLSP}.root
 fi;
 
 # EXIT
