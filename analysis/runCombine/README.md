@@ -1,39 +1,48 @@
 
 ## Instructions to produce limits
 
-### Requirements
+### Step 0: Requirements
 
 Instructions are provided to produce the exclusion limits with Combine either locally or on Condor. 
 
 To setup the environment (if not already done)
 ```bash
-> git clone https://github.com/Pmeiring/EWKComb2021.git
-> cd EWKComb2021
-> git checkout dev_condorsub
+git clone https://github.com/Pmeiring/EWKComb2021.git
+cd EWKComb2021
+git checkout dev_condorsub
 ```
 
 The recommended CMSSW release (10_2_13) and Combine (v8.20) are already compiled (on CC7) and packed into a tar file, so one can directly proceed to running limits!
 
 
-### Running locally
+### Step 1: Preparing a combination
+
+To run a particular combination, you need to prepare a local run directory that will contain all scripts and infrastructure to run both locally and on batch.
+For example:
+```bash
+cd analysis/runCombine
+python prepareSubmission.py outputDIRonEOS --topology WZ --analyses SOS,ML --rundir LocalDIR
+```
+A single or multiple (with a comma-separated list) analyses can be specified to combine results for a particular topology. Furthermore, please note that the output directory must be a directory on eos. The script will prepare a local run directory ```LocalDIR``` after checking that the relevant data-cards are in place.
+
+### Step 2.1: Running locally
 
 To test the limit production for one mass-point, execute:
 ```bash
-> cd analysis/runCombine
-> ./runCombination.sh OutputDirOnEos TChiWZ 100 80
+chmod +x LocalDIR/runCombination.sh
+LocalDIR/runCombination.sh TChiWZ_100_80
 ```
-Please note that the output directory must be a directory on eos. If the test was successful, the script should have finished without error and the limit (.root) file should be copied to the specified output directory.
+If the test was successful, the script should have finished without error and the (.root) files should be copied to the specified output directory on EOS. If you need more feedback from the test, it may be useful to remove the last few lines of ```LocalDIR/runCombination.sh``` that clean the running directory.
 
 
-### Running on Condor
+### Step 2.2: Running on Condor
 
 First authenticate your grid certificate:
 ```bash
-> voms-proxy-init --voms cms --valid 144:0
+voms-proxy-init --voms cms --valid 144:0
 ```
-Next, make sure to replace the output directory (must be on eos!), which is the first argument on [this line](https://github.com/Pmeiring/EWKComb2021/blob/5982bfea64ef782a9aa6b43531d78993e8208e78/analysis/runCombine/condor_submitter.sub#L17).
-Finally, launch the batch jobs:
+Launch the batch jobs:
 ```bash
-> condor_submit condor_submitter.sub
+condor_submit LocalDIR/condor_submitter.sub
 ```
-One job per {model,mass-point} will be launched and the resulting limit (.root) files will be copied to the specified output directory.
+One job per mass-point will be launched and the resulting limit (.root) files will be copied to the specified output directory on EOS. Log files for this combination can be found in ```LocalDIR/batch_logs```
