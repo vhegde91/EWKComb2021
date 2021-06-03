@@ -70,7 +70,7 @@ queue 1 masspoint from ({mps}
 	comb= "combine -M AsymptoticLimits $\{MASSPOINT}_comb.root --run blind -n $\{MASSPOINT}_obs -m $\{MNLSP}"
 	mdim= "combine -M MultiDimFit $\{MASSPOINT}_comb.root --freezeParameters allConstrainedNuisances -t -1 --setParameters r=0.5 --setParameterRanges r=0,1 -n $\{MASSPOINT}_obs -m $\{MNLSP} --algo grid --points 50 -v 3"
 	fitd= "combine -M FitDiagnostics $\{MASSPOINT}_comb.root --saveNormalizations --freezeParameters allConstrainedNuisances -t -1 --setParameters r=0.5 -n $\{MASSPOINT}_obs -m $\{MNLSP}"
-	commands=combcards+"\\n"+t2w+"\\n"+comb+"\\n"+mdim
+	commands=combcards+"\\n"+t2w+"\\n"+comb+"\\n"+mdim+"\\n"+fitd
 	os.system("sed -i \"s+%COMBINECOMMANDS%+" + commands + "+g\" " + rundir + "/runCombination.sh")
 
 	return rundir
