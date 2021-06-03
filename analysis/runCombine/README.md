@@ -1,9 +1,9 @@
 
 ## Instructions to produce limits
 
-### Step 0: Requirements
-
 Instructions are provided to produce the exclusion limits with Combine either locally or on Condor. 
+
+### Step 0: Requirements
 
 To setup the environment (if not already done)
 ```bash
@@ -21,7 +21,7 @@ To run a particular combination, you need to prepare a local run directory that 
 For example:
 ```bash
 cd analysis/runCombine
-python prepareSubmission.py outputDIRonEOS --topology WZ --analyses SOS,ML --rundir LocalDIR
+python prepareCombination.py outputDIRonEOS --topology WZ --analyses SOS,ML --rundir LocalDIR
 ```
 A single or multiple (with a comma-separated list) analyses can be specified to combine results for a particular topology. Furthermore, please note that the output directory must be a directory on eos. The script will prepare a local run directory ```LocalDIR``` after checking that the relevant data-cards are in place.
 
