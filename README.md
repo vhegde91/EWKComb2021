@@ -28,26 +28,26 @@ Combination names TBC
 |	WZ tails	|	TBD	|	NA	|		|		|		|		|	:x:	|		|		|
 |	Non prompt shapes	|	TBD	| shape_mllInclInMET_year	|		|		|		|		|	:x:	|		|		|
 |	**Signal Modelling**																			
-|	ISR	|	TBD	|	ISR_year	|		|		|		|		|		|		|		|
-|	FastSimMET	|	TBD	|	NA	|		|		|		|		|		|		|		|
-|	QCD/Scales	|	TBD	|	CMS_scale_j	|		|		|		|		|		|		|		|
+|	ISR	|	TBD	|	ISR_year	|		|		|		|		|	SyISR	|		|		|
+|	FastSimMET	|	TBD	|	NA	|		|		|		|		|	SyFastMET	|		|		|
+|	QCD/Scales	|	TBD	|	CMS_scale_j	|		|		|		|		|	SyScaleShape	|		|		|
 |	**Other general**																			
-|	PileUp	|	TBD	| PU		|		|		|		|		|		|		|		|
-|	Luminosity	|	TBD	| lumi_13TeV_year		|		|		|		|		|		|		|		|
-|	MC statistics	|	TBD	|	autoMCstats	|		|		|		|		|		|		|		|
+|	PileUp	|	TBD	| PU		|		|		|		|		|	SyOthers	|		|		|
+|	Luminosity	|	TBD	| lumi_13TeV_year		|		|		|		|		|	SyLumi	|		|		|
+|	MC statistics	|	TBD	|	autoMCstats	|		|		|		|		|	st*	|		|		|
 |	**Objects**																			
-|	Electron efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|		|		|		|
-|	Muon efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|		|		|		|
-|	Tau efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
-|	b tag efficiency	|	TBD	|	CMS_btag_<lf,hf,lfstats1/2,hfstats1/2,cferr1/2>	|		|		|		|		|		|		|		|
-|	bb tag efficiency	|	TBD	|	NA	|		|		|		|		|		|		|		|
-|	JER	|	TBD	|	TBC	|		|		|		|		|		|		|		|
-|	JES	|	TBD	|	TBC	|		|		|		|		|		|		|		|
-|	Trigger Efficiency	|	TBD	|	TriggerEff_<2l/3l/lowWZ>_year	|		|		|		|		|		|		|		|
-|	Trigger SF	|	TBD	|	TriggerSF_<2l/3l/lowWZ>_year	|		|		|		|		|		|		|		|
-|	Prefire corrections	|	TBD	|	Prefire_year	|		|		|		|		|		|		|		|
-|	Soft drop jet mass	|	TBD	|	NA	|		|		|		|		|		|		|		|
-|	JetID	|	TBD	|	NA	|		|		|		|		|		|		|		|
+|	Electron efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|	SyLepSF	|		|		|
+|	Muon efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|	SyLepSF	|		|		|
+|	Tau efficiency	|	TBD	|	NA	|		|		|		|		|	:x:	|		|		|
+|	b tag efficiency	|	TBD	|	CMS_btag_<lf,hf,lfstats1/2,hfstats1/2,cferr1/2>	|		|		|		|		|	SyPOGbTag	|		|		|
+|	bb tag efficiency	|	TBD	|	NA	|		|		|		|		|	SyPOGbbVsL	|		|		|
+|	JER	|	TBD	|	TBC	|		|		|		|		|	SyOthers	|		|		|
+|	JES	|	TBD	|	TBC	|		|		|		|		|	SyOthers	|		|		|
+|	Trigger Efficiency	|	TBD	|	TriggerEff_<2l/3l/lowWZ>_year	|		|		|		|		|	SyTrigger	|		|		|
+|	Trigger SF	|	TBD	|	TriggerSF_<2l/3l/lowWZ>_year	|		|		|		|		|	:question:	|		|		|
+|	Prefire corrections	|	TBD	|	Prefire_year	|		|		|		|		|	:x:	|		|		|
+|	Soft drop jet mass	|	TBD	|	NA	|		|		|		|		|	SyJMR	|		|		|
+|	JetID	|	TBD	|	NA	|		|		|		|		|	:question:	|		|		|
 
 ### Processes
 
