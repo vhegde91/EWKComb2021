@@ -13,20 +13,20 @@ Combination names TBC
 |	Source	|	Name	|	SOS	|	ZEdge	|	WH	|	ML	|	4b	|	hadronic WX (SUS-21-002)	|	Comment	|	Correlation implemented	|
 |	---	|	---	|	---	|	---	|	---	|	---	| --- | --- |	---	|	---	|				
 |	**SM backgrounds**																			
-|	DY normalization	|	TBD	|	norm_dy_<low/med>_year_lnU	|		|		|		|		|	:x:	|		|		|
-|	WZ normalization	|	TBD	|	norm_wz_<low/med>_year_lnU	|		|		|		|		|	:x:	|		|		|
-|	ZZ normalization	|	TBD	|	norm_vv	|		|		|		|		|	:x:	|		|		|
-|	VV normalization	|	TBD	|	norm_vv	|		|		|		|		|SyDiBosonXsec	|		|		|
-|	X+gamma normalization	|	TBD	|	norm_rares	|		|		|		|		|	:x:	|		|		|
-|	VVV normaliation	|	TBD	|	norm_rares	|		|		|		|		|	:x:	|		|		|
-|	VH normalization	|	TBD	|	NA	|		|		|		|		|	:x:	|		|		|
-|	tZq normalization	|	TBD	|	norm_rares	|		|		|		|		|	:x:	|		|		|
-|	tt normalization	|	TBD	|	norm_tt_<low/med>_year_lnU	|		|		|		|		|SyTopXsec	|		|		|
-|	TTZ normalization	|	TBD	|	norm_rares	|		|		|		|		|	:x:	|		|		|
-|	Non prompt norm	|	TBD	|	norm_fakes	|		|		|		|		|	:x:	|		|		|
-|	Charge flips norm	|	TBD	|	NA	|		|		|		|		|	:x:	|		|		|
-|	WZ tails	|	TBD	|	NA	|		|		|		|		|	:x:	|		|		|
-|	Non prompt shapes	|	TBD	| shape_mllInclInMET_year	|		|		|		|		|	:x:	|		|		|
+|	DY normalization	|	TBD	|	norm_dy_<low/med>_year_lnU	|		|		|		|		|		|		|		|
+|	WZ normalization	|	TBD	|	norm_wz_<low/med>_year_lnU	|		|		|		|		|		|		|		|
+|	ZZ normalization	|	TBD	|	norm_vv	|		|		|		|		|		|		|		|
+|	VV normalization	|	TBD	|	norm_vv	|		|		|		|		|		|		|		|
+|	X+gamma normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	VVV normaliation	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	VH normalization	|	TBD	|	NA	|		|		|		|		|		|		|		|
+|	tZq normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	tt normalization	|	TBD	|	norm_tt_<low/med>_year_lnU	|		|		|		|		|		|		|		|
+|	TTZ normalization	|	TBD	|	norm_rares	|		|		|		|		|		|		|		|
+|	Non prompt norm	|	TBD	|	norm_fakes	|		|		|		|		|		|		|		|
+|	Charge flips norm	|	TBD	|	NA	|		|		|		|		|		|		|		|
+|	WZ tails	|	TBD	|	NA	|		|		|		|		|		|		|		|
+|	Non prompt shapes	|	TBD	| shape_mllInclInMET_year	|		|		|		|		|		|		|		|
 |	**Signal Modelling**																			
 |	ISR	|	TBD	|	ISR_year	|		|		|		|		|		|		|		|
 |	FastSimMET	|	TBD	|	NA	|		|		|		|		|		|		|		|
