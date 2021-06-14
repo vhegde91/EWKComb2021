@@ -31,10 +31,15 @@ Combination names TBC
 |	ISR	|	TBD	|	ISR_year	|		|		|		|		|	SyISR	|		|		|
 |	FastSimMET	|	TBD	|	NA	|		|		|		|		|	SyFastMET	|		|		|
 |	QCD/Scales	|	TBD	|	CMS_scale_j	|		|		|		|		|	SyScaleShape	|		|		|
+|	Fast-Full bb mass	|	TBD	|		|		|		|		|		|	SyFastHmass	|		|		|
+|	Fast-Full bb tag	|	TBD	|		|		|		|		|		|	SyFastHTag	|		|		|
 |	**Other general**																			
 |	PileUp	|	TBD	| PU		|		|		|		|		|	SyOthers	|		|		|
 |	Luminosity	|	TBD	| lumi_13TeV_year		|		|		|		|		|	SyLumi	|		|		|
 |	MC statistics	|	TBD	|	autoMCstats	|		|		|		|		|	st*	|		|		|
+|	PDF	|	TBD	|		|		|		|		|		|SyOthers	|		|		|
+|	QCD/Scale normalization	|	TBD	|		|		|		|		|		|SyScaleNorm	|		|		|
+|	QCD/Scale shape	|	TBD	|		|		|		|		|		|SyScaleShape	|		|		|
 |	**Objects**																			
 |	Electron efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|	SyLepSF	|		|		|
 |	Muon efficiency	|	TBD	|	lepSF_<1,2,3>	|		|		|		|		|	SyLepSF	|		|		|
